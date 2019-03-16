@@ -162,4 +162,9 @@
 
     <!-- Gesture navigation settings -->
     <string name="gesture_navigation_settings_activity_title">@string/edge_to_edge_navigation_title</string>
+
+    <!-- Display cutout behavior -->
+    <string name="display_cutout_mode_title">Display cutout behavior</string>
+    <string name="display_cutout_mode_normal">Default</string>
+    <string name="display_cutout_mode_hidden">Hidden</string>
 </resources>
