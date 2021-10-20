@@ -189,4 +189,35 @@
         <item>lock_wallpaper</item>
         <item>preset</item>
     </string-array>
+
+    <!-- Captive portal -->
+    <string-array name="connectivity_check_entries">
+        <item>@string/connectivity_check_disabled</item>
+        <item>Amazon Fire OS</item>
+        <item>Cloudflare</item>
+        <item>DivestOS</item>
+        <item>Huawei</item>
+        <item>Kuketz</item>
+        <item>Microsoft Edge</item>
+        <item>openSUSE</item>
+        <item>Ubuntu</item>
+        <item>Xiaomi</item>
+        <item>GrapheneOS</item>
+        <item>@string/connectivity_check_automatic</item>
+    </string-array>
+
+    <string-array name="connectivity_check_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
 </resources>

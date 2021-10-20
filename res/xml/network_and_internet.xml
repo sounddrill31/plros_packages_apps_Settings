@@ -127,4 +127,15 @@
         android:summary="@string/summary_placeholder"
         android:order="25"
         settings:controller="com.android.settings.network.AdaptiveConnectivityPreferenceController"/>
+
+    <ListPreference
+        android:key="connectivity_check_settings"
+        android:title="@string/connectivity_check_title"
+        android:summary="%s"
+        android:defaultValue="11"
+        android:icon="@drawable/ic_network_check"
+        android:order="30"
+        android:entries="@array/connectivity_check_entries"
+        android:entryValues="@array/connectivity_check_values"
+        settings:controller="com.android.settings.network.ConnectivityCheckPreferenceController" />
 </PreferenceScreen>
