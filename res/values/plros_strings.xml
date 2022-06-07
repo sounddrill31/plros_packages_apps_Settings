@@ -167,4 +167,11 @@
     <!-- Power menu on secure keyguard -->
     <string name="use_power_menu_on_secure_keyguard_title">Disable power menu on secure lock screen</string>
     <string name="use_power_menu_on_secure_keyguard_summary">Require unlocking to access power off and restart actions</string>
+
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">IME space</string>
+    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
+    <string name="ime_narrow">Narrow</string>
+    <string name="ime_default">Default</string>
+    <string name="ime_hidden">Hidden</string>
 </resources>
