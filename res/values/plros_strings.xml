@@ -207,4 +207,8 @@
     <string name="chroma_factor_summary">Higher values produce stronger colors</string>
     <string name="tint_background_title">Tint background</string>
     <string name="tint_background_summary">Make luminance and chroma option affect background colors as well</string>
+
+    <!-- GOS picked -->
+    <string name="storage_scopes">Storage Scopes</string>
+    <string name="storage_scopes_summary">Allow app to access selected files</string>
 </resources>
