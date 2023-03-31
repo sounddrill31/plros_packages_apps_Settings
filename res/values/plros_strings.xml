@@ -141,4 +141,8 @@
     <string name="sleep_mode_sensors_toggle_title">Turn off sensors</string>
     <string name="sleep_mode_sensors_toggle_summary">Disable sensors when Sleep Mode is turned on</string>
     <string name="sleep_mode_display_text">Sleep Mode allows you to disable certain services to help save battery and silence your phone while you sleep</string>
+
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
 </resources>
