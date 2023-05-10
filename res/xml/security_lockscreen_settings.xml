@@ -50,6 +50,14 @@
             android:title="@string/lockscreen_media_art_title"
             android:defaultValue="false" />
 
+        <lineageos.preference.SystemSettingListPreference
+            android:key="lockscreen_albumart_filter"
+            android:title="@string/lockscreen_albumart_filter_title"
+            android:entries="@array/lockscreen_albumart_filter_entries"
+            android:entryValues="@array/lockscreen_albumart_filter_values"
+            android:dependency="lockscreen_media_metadata"
+            android:defaultValue="0" />
+
         <SwitchPreference
             android:key="lockscreen_privacy_wallet_switch"
             android:title="@string/lockscreen_privacy_wallet_setting_toggle"
