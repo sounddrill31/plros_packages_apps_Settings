@@ -211,4 +211,6 @@
     <!-- GOS picked -->
     <string name="storage_scopes">Storage Scopes</string>
     <string name="storage_scopes_summary">Allow app to access selected files</string>
+    <string name="contact_scopes">Contact Scopes</string>
+    <string name="contact_scopes_summary">Allow app to access selected contacts</string>
 </resources>
