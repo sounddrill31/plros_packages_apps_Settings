@@ -38,6 +38,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
 
+    <!-- Remix revision -->
+    <Preference
+        android:key="remix_revision"
+        android:title="@string/remix_revision_title"
+        android:summary="@string/remix_revision_summary"
+        settings:enableCopying="true" />
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
