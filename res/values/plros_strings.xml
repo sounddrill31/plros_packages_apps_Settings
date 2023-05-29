@@ -149,4 +149,8 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
     <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide power menu on secure lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">Disable access to power menu when secure locked</string>
 </resources>
