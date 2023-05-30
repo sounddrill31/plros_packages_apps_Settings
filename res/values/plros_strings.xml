@@ -153,4 +153,8 @@
     <!-- Power menu on lockscreen -->
     <string name="power_menu_hide_on_secure_title">Hide power menu on secure lock screen</string>
     <string name="power_menu_hide_on_secure_summary">Disable access to power menu when secure locked</string>
+
+    <!-- Tiles on secure keyguard -->
+    <string name="use_tiles_on_secure_keyguard_title">Disable Quick Settings on secure lock screen</string>
+    <string name="use_tiles_on_secure_keyguard_summary">Require unlocking to access sensitive Quick Settings tile</string>
 </resources>
