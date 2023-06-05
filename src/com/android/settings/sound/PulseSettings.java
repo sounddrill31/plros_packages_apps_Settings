@@ -50,7 +50,6 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     private static final String AMBIENT_PULSE_ENABLED_KEY = "ambient_pulse_enabled";
     private static final String PULSE_SMOOTHING_KEY = "pulse_smoothing_enabled";
     private static final String PULSE_COLOR_MODE_KEY = "pulse_color_mode";
-    private static final String PULSE_COLOR_MODE_CHOOSER_KEY = "pulse_color_user";
     private static final String PULSE_COLOR_MODE_LAVA_SPEED_KEY = "pulse_lavalamp_speed";
     private static final String PULSE_RENDER_CATEGORY_SOLID = "pulse_2";
     private static final String PULSE_RENDER_CATEGORY_FADING = "pulse_fading_bars_category";
@@ -58,7 +57,6 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     private static final int RENDER_STYLE_FADING_BARS = 0;
     private static final int RENDER_STYLE_SOLID_LINES = 1;
     private static final int COLOR_TYPE_ACCENT = 0;
-    private static final int COLOR_TYPE_USER = 1;
     private static final int COLOR_TYPE_LAVALAMP = 2;
     private static final int COLOR_TYPE_AUTO = 3;
 
@@ -70,7 +68,6 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mPulseSmoothing;
     private Preference mRenderMode;
     private ListPreference mColorModePref;
-    private ColorPickerPreference mColorPickerPref;
     private Preference mLavaSpeedPref;
     private Preference mFooterPref;
 
@@ -104,7 +101,6 @@ public class PulseSettings extends SettingsPreferenceFragment implements
         mAmbientPulse.setOnPreferenceChangeListener(this); 
 
         mColorModePref = (ListPreference) findPreference(PULSE_COLOR_MODE_KEY);
-        mColorPickerPref = (ColorPickerPreference) findPreference(PULSE_COLOR_MODE_CHOOSER_KEY);
         mLavaSpeedPref = findPreference(PULSE_COLOR_MODE_LAVA_SPEED_KEY);
         mColorModePref.setOnPreferenceChangeListener(this);
 
@@ -174,7 +170,6 @@ public class PulseSettings extends SettingsPreferenceFragment implements
                 Settings.Secure.PULSE_COLOR_MODE, COLOR_TYPE_LAVALAMP, UserHandle.USER_CURRENT);
             updateColorPrefs(colorMode);
         } else {
-            mColorPickerPref.setEnabled(false);
             mLavaSpeedPref.setEnabled(false);
         }
 
@@ -194,19 +189,12 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     private void updateColorPrefs(int val) {
         switch (val) {
             case COLOR_TYPE_ACCENT:
-                mColorPickerPref.setEnabled(false);
-                mLavaSpeedPref.setEnabled(false);
-                break;
-            case COLOR_TYPE_USER:
-                mColorPickerPref.setEnabled(true);
                 mLavaSpeedPref.setEnabled(false);
                 break;
             case COLOR_TYPE_LAVALAMP:
-                mColorPickerPref.setEnabled(false);
                 mLavaSpeedPref.setEnabled(true);
                 break;
             case COLOR_TYPE_AUTO:
-                mColorPickerPref.setEnabled(false);
                 mLavaSpeedPref.setEnabled(false);
                 break;
         }
@@ -231,8 +219,6 @@ public class PulseSettings extends SettingsPreferenceFragment implements
                 Settings.Secure.PULSE_SMOOTHING_ENABLED, 0, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.PULSE_COLOR_MODE, COLOR_TYPE_LAVALAMP, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.PULSE_COLOR_USER, 0x92FFFFFF, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
                 Settings.Secure.PULSE_LAVALAMP_SPEED, 10000, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
