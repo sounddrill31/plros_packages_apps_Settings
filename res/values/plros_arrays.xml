@@ -51,7 +51,7 @@
       <item>3</item>
     </string-array>
 
-    <!-- Custom timeout for Bluetooth -->
+    <!-- Custom timeout for Wi-Fi/Bluetooth -->
     <string-array name="custom_timeout_entries">
         <item>@string/custom_timeout_summary_never</item>
         <item>@string/custom_timeout_summary_1min</item>
