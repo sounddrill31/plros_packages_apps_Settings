@@ -66,6 +66,8 @@
     <string name="pulse_custom_div">Bar spacing</string>
     <string name="pulse_filled_block_size">Block size</string>
     <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="unit_pixels">dp</string>
+    <string name="unit_milliseconds">milliseconds</string>
 
     <!-- Game Space -->
     <string name="game_space_title">Game Space</string>
