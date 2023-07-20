@@ -159,4 +159,7 @@
     <!-- Tiles on secure keyguard -->
     <string name="use_tiles_on_secure_keyguard_title">Disable Quick Settings on secure lock screen</string>
     <string name="use_tiles_on_secure_keyguard_summary">Require unlocking to access sensitive Quick Settings tile</string>
+
+    <!-- Gesture navigation settings -->
+    <string name="gesture_navigation_settings_activity_title">@string/edge_to_edge_navigation_title</string>
 </resources>
