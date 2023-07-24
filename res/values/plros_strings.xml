@@ -163,4 +163,8 @@
     <string name="display_cutout_mode_title">Display cutout behavior</string>
     <string name="display_cutout_mode_normal">Default</string>
     <string name="display_cutout_mode_hidden">Hidden</string>
+
+    <!-- Power menu on secure keyguard -->
+    <string name="use_power_menu_on_secure_keyguard_title">Disable power menu on secure lock screen</string>
+    <string name="use_power_menu_on_secure_keyguard_summary">Require unlocking to access power off and restart actions</string>
 </resources>
