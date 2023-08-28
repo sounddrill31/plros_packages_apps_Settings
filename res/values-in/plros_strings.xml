@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Project Lineage Remix Open Source
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Geser untuk screenshot</string>
+    <string name="three_finger_gesture_summary">Geser tiga jari ke bawah untuk screenshot</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suara screenshot</string>
+
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Abaikan bendera jendela aman</string>
+    <string name="ignore_window_secure_summary">Menghilangkan batasan screenshot dan perekam layar di semua aplikasi. Perilaku ini praktis dalam beberapa kasus penggunaan, tetapi dapat menyebabkan keluputan privasi.</string>
+
+    <!-- Lockscreen album art filter -->
+    <string name="lockscreen_albumart_filter_title">Filter sampul media</string>
+    <string name="lockscreen_albumart_filter_none">Tidak ada</string>
+    <string name="lockscreen_albumart_filter_grayscale">Abu-abu</string>
+    <string name="lockscreen_albumart_filter_tint">Warna aksen</string>
+
+    <!-- Pulse music visualizer -->
+    <string name="pulse_help_policy_notice_title">Tentang Pulse</string>
+    <string name="pulse_help_policy_notice_summary">Pulse adalah grafik ekualiser audio yang cemerlang saat musik diputar di perangkat ini</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Grafik ekualiser audio untuk bar navigasi dan layar kunci</string>
+    <string name="show_navbar_pulse_title">Pulse bar navigasi</string>
+    <string name="show_navbar_pulse_summary">Grafik ekualiser audio di bar navigasi</string>
+    <string name="show_lockscreen_pulse_title">Pulse layar kunci</string>
+    <string name="show_lockscreen_pulse_summary">Grafik ekualiser audio di layar kunci </string>
+    <string name="show_ambient_pulse_title">Pulse standby</string>
+    <string name="show_ambient_pulse_summary">Grafik ekualiser audio di tampilan standby</string>
+    <string name="pulse_render_mode_title">Mode render</string>
+    <string name="pulse_render_mode_fading_bars">Blok memudar</string>
+    <string name="pulse_render_mode_solid_lines">Garis padat</string>
+    <string name="pulse_solid_units_rounded_title">Sudut membulat</string>
+    <string name="pulse_solid_units_rounded_summary">Garis padat dengan sudut membulat</string>
+    <string name="pulse_legacy_mode_advanced_category">Pengaturan blok memudar</string>
+    <string name="pulse_custom_fudge_factor">Tingkat keramaian</string>
+    <string name="pulse_lavalamp_speed_title">Kecepatan lampu lava</string>
+    <string name="pulse_solid_units_count">Jumlah garis padat</string>
+    <string name="pulse_solid_units_opacity">Opasitas garis padat</string>
+    <string name="pulse_solid_dimen_category">Pengaturan garis padat</string>
+    <string name="pulse_color_mode_title">Warna</string>
+    <string name="pulse_color_accent">Aksen</string>
+    <string name="pulse_color_custom">Khusus</string>
+    <string name="pulse_color_lava_lamp">Lampu lava</string>
+    <string name="pulse_color_auto">Album</string>
+    <string name="pulse_color_user_title">Pilih warna</string>
+    <string name="pulse_smoothing_enabled_title">Aktifkan penghalusan</string>
+    <string name="pulse_smoothing_enabled_summary">Animasi setiap bar akan lebih halus</string>
+    <string name="pulse_custom_dimen">Lebar bar</string>
+    <string name="pulse_custom_div">Jarak bar</string>
+    <string name="pulse_filled_block_size">Ukuran blok</string>
+    <string name="pulse_empty_block_size">Jarak blok</string>
+    <string name="unit_pixels">dp</string>
+    <string name="unit_milliseconds">milidetik</string>
+
+    <!-- Game Space -->
+    <string name="game_space_title">Ruang Gim</string>
+    <string name="game_space_summary">Tingkatkan pengalaman bermain gim Anda</string>
+
+    <!-- Wi-Fi/Bluetooth auto timeout -->
+    <string name="wifi_timeout">Otomatis nonaktifkan Wi-Fi</string>
+    <string name="wifi_timeout_summary">Wi-Fi tidak akan dinonaktifkan secara otomatis</string>
+    <string name="wifi_timeout_summary_auto">Wi-Fi akan dinonaktifkan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan yang terhubung</string>
+    <string name="bluetooth_timeout">Otomatis nonaktifkan Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Bluetooth tidak akan dinonaktifkan secara otomatis</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth akan dinonaktifkan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat yang terhubung</string>
+    <string name="custom_timeout_summary_never">Jangan pernah</string>
+    <string name="custom_timeout_summary_5secs">5 edit</string>
+    <string name="custom_timeout_summary_10secs">10 detik</string>
+    <string name="custom_timeout_summary_15secs">15 detik</string>
+    <string name="custom_timeout_summary_30secs">30 detik</string>
+    <string name="custom_timeout_summary_1min">1 menit</string>
+    <string name="custom_timeout_summary_2mins">2 menit</string>
+    <string name="custom_timeout_summary_5mins">5 menit</string>
+    <string name="custom_timeout_summary_10mins">10 menit</string>
+    <string name="custom_timeout_summary_20mins">20 menit</string>
+    <string name="custom_timeout_summary_30mins">30 menit</string>
+    <string name="custom_timeout_summary_1hour">1 jam</string>
+    <string name="custom_timeout_summary_2hours">2 jam</string>
+    <string name="custom_timeout_summary_4hours">4 jam</string>
+    <string name="custom_timeout_summary_8hours">8 jam</string>
+
+    <!-- Hotspot client manager -->
+    <string name="wifi_hotspot_hidden_ssid_title">Jaringan tersembunyi</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Nama hotspot Anda tidak akan ditampilkan dalam jaringan Wi-Fi yang tersedia</string>
+    <string name="wifi_hotspot_client_manager_title">Perangkat terhubung</string>
+    <string name="wifi_hotspot_client_manager_summary">Daftar dan kelola perangkat yang terhubung ke hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Daftar perangkat yang terhubung ke hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Batas perangkat terhubung</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Perangkat yang diblokir</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Perangkat yang terhubung</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blokir perangkat</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Tindakan ini akan memutuskan \"<xliff:g id="device_name">%1$s</xliff:g>\" dari perangkat ini dan menambahkannya ke dalam daftar blokir</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Buka blokir perangkat</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Perangkat \"<xliff:g id="device_name">%1$s</xliff:g>\" akan dapat terhubung ke hotspot ini</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Tidak ada klien yang tersedia saat ini. Perangkat yang terhubung dan terblokir akan terdaftar di sini jika tersedia. </string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Jangan pernah nonaktifkan hotspot</string>
+
+    <!-- Remix revision -->
+    <string name="remix_revision_title">Revisi Remix</string>
+
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Tidur lelap</string>
+
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Mode Tidur</string>
+    <string name="sleep_mode_summary_on">Aktif / <xliff:g name="auto_mode_summary" example="Tidak akan dinonaktifkan secara otomatis">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Nonaktif / <xliff:g name="auto_mode_summary" example="Tidak akan diaktifkan secara otomatis">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Mode dering</string>
+    <string name="sleep_mode_ringer_off_title">Tidak berubah</string>
+    <string name="sleep_mode_ringer_vibrate_title">Getar</string>
+    <string name="sleep_mode_ringer_dnd_title">Jangan Ganggu</string>
+    <string name="sleep_mode_ringer_silent_title">Diam</string>
+    <string name="sleep_mode_schedule_sunset">Malam</string>
+    <string name="sleep_mode_schedule_sunrise">Pagi</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Aktifkan dari malam sampai waktu khusus</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Aktifkan dari pagi sampai waktu khusus</string>
+    <string name="sleep_mode_toggles_title">Pengaturan</string>
+    <string name="sleep_mode_wifi_toggle_title">Nonaktifkan Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Nonaktifkan Wi-Fi saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Nonaktifkan Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Nonaktifkan Bluetooth saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_cellular_toggle_title">Nonaktifkan data seluler</string>
+    <string name="sleep_mode_cellular_toggle_summary">Nonaktifkan data seluler saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_location_toggle_title">Nonaktifkan lokasi</string>
+    <string name="sleep_mode_location_toggle_summary">Nonaktifkan lokasi saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_sensors_toggle_title">Nonaktifkan sensor</string>
+    <string name="sleep_mode_sensors_toggle_summary">Nonaktifkan sensor saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_display_text">Mode tidur membantu Anda untuk menonaktifkan layanan tertentu untuk menghemat baterai dan mengheningkan perangkat saat Anda tidur</string>
+
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Paksa LTE CA</string>
+    <string name="force_lte_ca_summary">Paksa LTE carrier aggregation untuk bekerja</string>
+
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Tampilkan lapisan papan klip</string>
+    <string name="show_clipboard_overlay_summary">Tampilkan lapisan di kiri bawah layar saat sesuatu tersalin ke dalam papan klip</string>
+
+    <!-- Tiles on secure keyguard -->
+    <string name="use_tiles_on_secure_keyguard_title">Nonaktifkan setelan cepat di layar kunci yang aman</string>
+    <string name="use_tiles_on_secure_keyguard_summary">Buka layar kunci diperlukan untuk mengakses kartu setelan cepat sensitif</string>
+
+    <!-- Display cutout behavior -->
+    <string name="display_cutout_mode_title">Perilaku potongan layar</string>
+    <string name="display_cutout_mode_normal">Default</string>
+    <string name="display_cutout_mode_hidden">Sembunyikan</string>
+
+    <!-- Power menu on secure keyguard -->
+    <string name="use_power_menu_on_secure_keyguard_title">Nonaktifkan menu daya di layar kunci yang aman</string>
+    <string name="use_power_menu_on_secure_keyguard_summary">Buka layar kunci diperlukan untuk mengakses tindakan matikan dan mulai ulang</string>
+
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Jarak IME</string>
+    <string name="ime_narrow">Kecil</string>
+    <string name="ime_default">Default</string>
+    <string name="ime_hidden">Sembunyikan</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Tautkan volume dering &amp; notifikasi</string>
+</resources>
