@@ -179,7 +179,7 @@
 
     <!-- Monet settings -->
     <string name="monet_settings_title">Color theme</string>
-    <string name="monet_settings_sammary">Customize color theme more granularly</string>
+    <string name="monet_settings_summary">Customize color theme more granularly</string>
     <string name="theme_style_title">Theme style</string>
     <string name="theme_style_tonal_spot">Default</string>
     <string name="theme_style_vibrant">Vibrant</string>

@@ -62,7 +62,7 @@
         <Preference
             android:key="monet_settings"
             android:title="@string/monet_settings_title"
-            android:summary="@string/monet_settings_sammary"
+            android:summary="@string/monet_settings_summary"
             android:fragment="com.android.settings.display.MonetSettings" />
 
         <com.android.settings.display.darkmode.DarkModePreference
