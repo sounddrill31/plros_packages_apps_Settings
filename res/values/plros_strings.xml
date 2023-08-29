@@ -176,4 +176,24 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- Monet settings -->
+    <string name="monet_settings_title">Color theme</string>
+    <string name="monet_settings_sammary">Customize color theme more granularly</string>
+    <string name="theme_style_title">Theme style</string>
+    <string name="theme_style_tonal_spot">Default</string>
+    <string name="theme_style_vibrant">Vibrant</string>
+    <string name="theme_style_expressive">Expressive</string>
+    <string name="theme_style_spritz">Spritz</string>
+    <string name="theme_style_rainbow">Rainbow</string>
+    <string name="theme_style_fruit_salad">Fruit Salad</string>
+    <string name="theme_style_muted">Muted</string>
+    <string name="theme_style_content">Content</string>
+    <string name="color_source_title">Color source</string>
+    <string name="color_source_both">Default</string>
+    <string name="color_source_home">Home screen wallpaper</string>
+    <string name="color_source_lock">Lock screen wallpaper</string>
+    <string name="color_source_preset">Preset</string>
+    <string name="accent_color_title">Accent color</string>
+    <string name="accent_color_summary">Override default accent color</string>
 </resources>
