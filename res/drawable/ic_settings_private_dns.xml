@@ -1,0 +1,25 @@
+<!--
+    Copyright (C) 2017 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="24dp"
+        android:height="24dp"
+        android:viewportWidth="24.0"
+        android:viewportHeight="24.0"
+        android:tint="?android:attr/colorControlNormal">
+    <path
+        android:pathData="M 7.5 6 C 7.082031 6 6.730469 6.144531 6.4375 6.4375 C 6.144531 6.730469 6 7.082031 6 7.5 C 6 7.917969 6.144531 8.269531 6.4375 8.5625 C 6.730469 8.855469 7.082031 9 7.5 9 C 7.917969 9 8.269531 8.855469 8.5625 8.5625 C 8.855469 8.269531 9 7.917969 9 7.5 C 9 7.082031 8.855469 6.730469 8.5625 6.4375 C 8.269531 6.144531 7.917969 6 7.5 6 Z M 7.5 16 C 7.082031 16 6.730469 16.144531 6.4375 16.4375 C 6.144531 16.730469 6 17.082031 6 17.5 C 6 17.917969 6.144531 18.269531 6.4375 18.5625 C 6.730469 18.855469 7.082031 19 7.5 19 C 7.917969 19 8.269531 18.855469 8.5625 18.5625 C 8.855469 18.269531 9 17.917969 9 17.5 C 9 17.082031 8.855469 16.730469 8.5625 16.4375 C 8.269531 16.144531 7.917969 16 7.5 16 Z M 4 3 L 20 3 C 20.285156 3 20.519531 3.097656 20.710938 3.289062 C 20.902344 3.480469 21 3.714844 21 4 L 21 11 C 21 11.285156 20.902344 11.519531 20.710938 11.710938 C 20.519531 11.902344 20.285156 12 20 12 L 4 12 C 3.714844 12 3.480469 11.902344 3.289062 11.710938 C 3.097656 11.519531 3 11.285156 3 11 L 3 4 C 3 3.714844 3.097656 3.480469 3.289062 3.289062 C 3.480469 3.097656 3.714844 3 4 3 Z M 5 5 L 5 10 L 19 10 L 19 5 Z M 4 13 L 20 13 C 20.285156 13 20.519531 13.097656 20.710938 13.289062 C 20.902344 13.480469 21 13.714844 21 14 L 21 21 C 21 21.285156 20.902344 21.519531 20.710938 21.710938 C 20.519531 21.902344 20.285156 22 20 22 L 4 22 C 3.714844 22 3.480469 21.902344 3.289062 21.710938 C 3.097656 21.519531 3 21.285156 3 21 L 3 14 C 3 13.714844 3.097656 13.480469 3.289062 13.289062 C 3.480469 13.097656 3.714844 13 4 13 Z M 5 15 L 5 20 L 19 20 L 19 15 Z M 5 5 L 5 10 Z M 5 15 L 5 20 Z M 5 15 "
+        android:fillColor="#FFFFFFFF"/>
+</vector>
