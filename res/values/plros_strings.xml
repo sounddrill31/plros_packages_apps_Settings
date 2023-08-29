@@ -196,4 +196,10 @@
     <string name="color_source_preset">Preset</string>
     <string name="accent_color_title">Accent color</string>
     <string name="accent_color_summary">Override default accent color</string>
+    <string name="luminance_factor_title">Luminance</string>
+    <string name="luminance_factor_summary">Higher values produce brighter colors</string>
+    <string name="chroma_factor_title">Chroma</string>
+    <string name="chroma_factor_summary">Higher values produce stronger colors</string>
+    <string name="tint_background_title">Tint background</string>
+    <string name="tint_background_summary">Make luminance and chroma option affect background colors as well</string>
 </resources>
