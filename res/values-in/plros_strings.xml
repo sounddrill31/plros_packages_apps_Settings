@@ -75,11 +75,11 @@
 
     <!-- Wi-Fi/Bluetooth auto timeout -->
     <string name="wifi_timeout">Otomatis nonaktifkan Wi-Fi</string>
-    <string name="wifi_timeout_summary">Wi-Fi tidak akan dinonaktifkan secara otomatis</string>
-    <string name="wifi_timeout_summary_auto">Wi-Fi akan dinonaktifkan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan yang terhubung</string>
+    <string name="wifi_timeout_summary">Wi-Fi tidak akan nonaktif secara otomatis</string>
+    <string name="wifi_timeout_summary_auto">Wi-Fi akan nonaktif setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan yang terhubung</string>
     <string name="bluetooth_timeout">Otomatis nonaktifkan Bluetooth</string>
-    <string name="bluetooth_timeout_summary">Bluetooth tidak akan dinonaktifkan secara otomatis</string>
-    <string name="bluetooth_timeout_summary_auto">Bluetooth akan dinonaktifkan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat yang terhubung</string>
+    <string name="bluetooth_timeout_summary">Bluetooth tidak akan nonaktif secara otomatis</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth akan nonaktif setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat yang terhubung</string>
     <string name="custom_timeout_summary_never">Jangan pernah</string>
     <string name="custom_timeout_summary_5secs">5 edit</string>
     <string name="custom_timeout_summary_10secs">10 detik</string>
@@ -120,8 +120,8 @@
 
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Mode Tidur</string>
-    <string name="sleep_mode_summary_on">Aktif / <xliff:g name="auto_mode_summary" example="Tidak akan dinonaktifkan secara otomatis">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Nonaktif / <xliff:g name="auto_mode_summary" example="Tidak akan diaktifkan secara otomatis">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_on">Aktif / <xliff:g name="auto_mode_summary" example="Tidak akan nonaktif secara otomatis">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Nonaktif / <xliff:g name="auto_mode_summary" example="Tidak akan aktif secara otomatis">%1$s</xliff:g></string>
     <string name="sleep_mode_ringer_title">Mode dering</string>
     <string name="sleep_mode_ringer_off_title">Tidak berubah</string>
     <string name="sleep_mode_ringer_vibrate_title">Getar</string>
@@ -173,4 +173,35 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Tautkan volume dering &amp; notifikasi</string>
+
+    <!-- Monet settings -->
+    <string name="monet_settings_title">Tema berwarna</string>
+    <string name="monet_settings_summary">Sesuaikan tema berwarna lebih merinci</string>
+    <string name="theme_style_title">Gaya tema</string>
+    <string name="theme_style_tonal_spot">Default</string>
+    <string name="theme_style_vibrant">Cerah</string>
+    <string name="theme_style_expressive">Ekspresif</string>
+    <string name="theme_style_spritz">Cipratan</string>
+    <string name="theme_style_rainbow">Pelangi</string>
+    <string name="theme_style_fruit_salad">Salad Buah</string>
+    <string name="theme_style_muted">Datar</string>
+    <string name="theme_style_content">Konten</string>
+    <string name="theme_style_monochromatic">Monokromatik</string>
+    <string name="color_source_title">Sumber warna</string>
+    <string name="color_source_both">Default</string>
+    <string name="color_source_home">Wallpaper layar utama</string>
+    <string name="color_source_lock">Wallpaper layar kunci</string>
+    <string name="color_source_preset">Preset</string>
+    <string name="accent_color_title">Warna aksen</string>
+    <string name="accent_color_summary">Timpa warna aksen default</string>
+    <string name="accent_background_title">Aksen latar belakang</string>
+    <string name="accent_background_summary">Pilih warna aksen berbeda untuk latar belakang</string>
+    <string name="bg_color_title">Warna latar belakang</string>
+    <string name="bg_color_summary">Timpa warna aksen latar belakang default</string>
+    <string name="luminance_factor_title">Cahaya</string>
+    <string name="luminance_factor_summary">Nilai yang lebih tinggi menghasilkan warna yang lebih cerah</string>
+    <string name="chroma_factor_title">Kroma</string>
+    <string name="chroma_factor_summary">Nilai yang lebih tinggi menghasilkan warna yang lebih kuat</string>
+    <string name="tint_background_title">Nada latar belakang</string>
+    <string name="tint_background_summary">Membuat opsi cahaya dan kroma memengaruhi warna latar belakang</string>
 </resources>
