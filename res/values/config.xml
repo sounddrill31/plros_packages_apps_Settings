@@ -306,7 +306,7 @@
     <bool name="config_face_education_use_lottie">true</bool>
 
     <!-- Whether to support enrollment during setup wizard flow -->
-    <bool name="config_suw_support_face_enroll">true</bool>
+    <bool name="config_suw_support_face_enroll">false</bool>
 
     <!-- App intent -->
     <string name="config_account_intent_uri" translatable="false"></string>
