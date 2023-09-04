@@ -18,16 +18,18 @@
     <ListPreference
         android:key="theme_style"
         android:title="@string/theme_style_title"
+        android:summary="%s"
+        android:defaultValue="TONAL_SPOT"
         android:entries="@array/theme_style_entries"
-        android:entryValues="@array/theme_style_values"
-        android:defaultValue="0" />
+        android:entryValues="@array/theme_style_values" />
 
     <ListPreference
         android:key="color_source"
         android:title="@string/color_source_title"
+        android:summary="%s"
+        android:defaultValue="both"
         android:entries="@array/color_source_entries"
-        android:entryValues="@array/color_source_values"
-        android:defaultValue="0" />
+        android:entryValues="@array/color_source_values" />
 
     <lineageos.preference.colorpicker.ColorPickerPreference
         android:key="accent_color"
@@ -49,10 +51,10 @@
         android:key="luminance_factor"
         android:title="@string/luminance_factor_title"
         android:summary="@string/luminance_factor_summary"
+        android:defaultValue="0"
         android:max="100"
         settings:min="-95"
         settings:interval="5"
-        settings:defaultValue="0"
         settings:units="%"
         settings:showSign="true" />
 
@@ -60,10 +62,10 @@
         android:key="chroma_factor"
         android:title="@string/chroma_factor_title"
         android:summary="@string/chroma_factor_summary"
+        android:defaultValue="0"
         android:max="100"
         settings:min="-95"
         settings:interval="5"
-        settings:defaultValue="0"
         settings:units="%"
         settings:showSign="true" />
 
