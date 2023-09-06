@@ -191,17 +191,28 @@
     <string name="color_source_both">Default</string>
     <string name="color_source_home">Wallpaper layar utama</string>
     <string name="color_source_lock">Wallpaper layar kunci</string>
-    <string name="color_source_preset">Preset</string>
+    <string name="color_source_preset">Khusus</string>
     <string name="accent_color_title">Warna aksen</string>
     <string name="accent_color_summary">Timpa warna aksen default</string>
-    <string name="accent_background_title">Aksen latar belakang</string>
-    <string name="accent_background_summary">Pilih warna aksen berbeda untuk latar belakang</string>
+    <string name="accent_background_title">Latar belakang</string>
+    <string name="accent_background_summary">Pilih warna berbeda untuk latar belakang</string>
     <string name="bg_color_title">Warna latar belakang</string>
-    <string name="bg_color_summary">Timpa warna aksen latar belakang default</string>
+    <string name="bg_color_summary">Timpa warna latar belakang default</string>
     <string name="luminance_factor_title">Cahaya</string>
     <string name="luminance_factor_summary">Nilai yang lebih tinggi menghasilkan warna yang lebih cerah</string>
     <string name="chroma_factor_title">Kroma</string>
     <string name="chroma_factor_summary">Nilai yang lebih tinggi menghasilkan warna yang lebih kuat</string>
     <string name="tint_background_title">Nada latar belakang</string>
     <string name="tint_background_summary">Membuat opsi cahaya dan kroma memengaruhi warna latar belakang</string>
+
+    <!-- GOS picked -->
+    <string name="storage_scopes">Cakupan Penyimpanan</string>
+    <string name="storage_scopes_summary">Izinkan aplikasi mengakses file yang dipilih</string>
+    <string name="contact_scopes">Cakupan Kontak</string>
+    <string name="contact_scopes_summary">Izinkan aplikasi mengakses kontak yang dipilih</string>
+
+    <!-- Captive portal -->
+    <string name="connectivity_check_title">Pemeriksaan konektivitas</string>
+    <string name="connectivity_check_disabled">Nonaktif</string>
+    <string name="connectivity_check_automatic">Otomatis</string>
 </resources>

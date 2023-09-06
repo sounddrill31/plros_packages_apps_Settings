@@ -194,7 +194,7 @@
     <string name="color_source_both">Default</string>
     <string name="color_source_home">Home screen wallpaper</string>
     <string name="color_source_lock">Lock screen wallpaper</string>
-    <string name="color_source_preset">Preset</string>
+    <string name="color_source_preset">Custom</string>
     <string name="accent_color_title">Accent color</string>
     <string name="accent_color_summary">Override default accent color</string>
     <string name="accent_background_title">Accent background</string>
