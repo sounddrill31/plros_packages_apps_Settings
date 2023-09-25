@@ -145,8 +145,7 @@
     <string name="sleep_mode_display_text">Mode tidur membantu Anda untuk menonaktifkan layanan tertentu untuk menghemat baterai dan mengheningkan perangkat saat Anda tidur</string>
 
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Paksa LTE CA</string>
-    <string name="force_lte_ca_summary">Paksa LTE carrier aggregation untuk bekerja</string>
+    <string name="force_lte_ca">Gunakan LTE carrier aggregation</string>
 
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Tampilkan lapisan papan klip</string>
