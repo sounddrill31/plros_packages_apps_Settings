@@ -22,7 +22,7 @@
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
-        android:icon="@drawable/ic_settings_wireless"
+        android:icon="@drawable/ic_settings_internet"
         android:key="top_level_network"
         android:order="-150"
         android:title="@string/network_dashboard_title"
