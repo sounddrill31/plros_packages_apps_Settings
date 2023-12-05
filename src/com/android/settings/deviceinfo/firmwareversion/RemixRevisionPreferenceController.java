@@ -32,7 +32,8 @@ import com.android.settings.core.BasePreferenceController;
 public class RemixRevisionPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "RemixRevisionPreferenceController";
-    private static final String REMIX_REVISION = "ro.remix.revision";
+    private static final String REMIX_REVISION_INT = "ro.remix.revision.int";
+    private static final String REMIX_REVISION_STRINGS = "ro.remix.revision.strings";
     private static final String REMIX_REVISION_URL = "ro.remix.revision.url";
     private static final Uri INTENT_REMIX_REVISION = Uri.parse(SystemProperties.get(REMIX_REVISION_URL));
 
@@ -47,15 +48,9 @@ public class RemixRevisionPreferenceController extends BasePreferenceController 
 
     @Override
     public CharSequence getSummary() {
-        //Remix revision method to use spacing, as it's a dumb thing and additional props doesn't have support for spaces. So, let's do a method to parse text
-        String remixrevisionProp = SystemProperties.get(REMIX_REVISION);
-        if (remixrevisionProp.contains("niceparse")) {
-            String remixrevisionFinal = remixrevisionProp.substring(remixrevisionProp.lastIndexOf(".") + 1);
-            return remixrevisionFinal.replace('_',' ');
-        } else {
-            //Fallback
-            return remixrevisionProp;
-        }
+        String remixRevisionInt= SystemProperties.get(REMIX_REVISION_INT);
+        String remixRevisionStrings = SystemProperties.get(REMIX_REVISION_STRINGS);
+        return remixRevisionInt + " (" +  remixRevisionStrings + ")";
     }
 
     @Override
